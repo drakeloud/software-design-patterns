@@ -40,6 +40,7 @@ class PizzaBuilder {
         return this._vegetable;
     }
     withVegetable(veg: string): PizzaBuilder {
+        this._vegetable = veg;
         return this;
     }
 
